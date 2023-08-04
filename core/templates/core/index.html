@@ -1,0 +1,36 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block content %}
+    <div class="mt-6 px-6 py-12 bg-gray-100 rounded-xl">
+        <h2 class="mb-12 text-3xl text-bold text-center">COMPANIES</h2>
+
+        <div class="grid grid-cols-3 gap-3">
+
+            {% for company in companies %}
+                <div>
+                    <a href="{% url 'company:detail' company.id %}">
+
+                        <div>
+                            <h2 class="text-2xl text-center">{{ company.company_name }}</h2>
+                        </div>
+
+                        <div class="p-6 bg-white rounded-b-xl">
+                            <h2 class="text-l">{{ company.business_area }}</h2>
+                            {% if request.user.is_authenticated %}
+                                <p class="text-orange-500">Turnover per Year: {{ company.turnover_per_year }}</p>
+                            {% endif %}
+                        </div>
+
+                    </a>
+                </div>
+
+            {% endfor %}
+        </div>
+
+
+    </div>
+
+
+{% endblock %}

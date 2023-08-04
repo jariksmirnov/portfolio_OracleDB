@@ -1,0 +1,82 @@
+{% extends 'core/base.html' %}
+
+{% block title %}{{company.company_name}}{% endblock %}
+
+{% block content %}
+    <div class="grid grid-cols-5 gap-6">
+        <div class="col-span-3">
+            <h1 class="mb-6 text-3l text-bold text-transform: uppercase">{{ company.company_name }}</h1>
+            {% if request.user == company.created_by %}
+                <a href="{% url 'company:detail_taxes' company.id %}" class="inline-block mt-6 px-6 py-3 text-lg font-semibold text-white
+                    bg-purple-500 rounded-xl hover:bg-purple-700">Taxes</a>
+            {% endif %}
+        </div>
+
+        <div class="col-span-2 p-6 bg-gray-100 rounded-xl">
+
+            <p class="text-gray-700">
+                <strong class="text-orange-500">Business Area: </strong><br>
+                {{ company.business_area }}
+            </p>
+
+            {% if request.user == company.created_by %}
+
+                <p class="text-gray-700">
+                    <strong class="text-orange-500">Turnover per Year: </strong><br>
+                    {{ company.turnover_per_year }}
+                </p>
+
+                {% if company.director %}
+                    <p class="text-gray-700">
+                        <strong class="text-orange-500">Director</strong><br>
+                        {{ company.director }}
+                    </p>
+                {% endif %}
+
+                {% if company.email %}
+                    <p class="text-gray-700">
+                        <strong class="text-orange-500">E-mail</strong><br>
+                        {{ company.email }}
+                    </p>
+                {% endif %}
+            {% endif %}
+
+            {% if request.user == company.created_by %}
+                <div class="mt-6 p-6 bg-white rounded-xl">
+                    <p>This is company created by you</p>
+
+                    <a href="{% url 'company:edit' company.id %}" class="inline-block mt-6 px-6 py-3 text-lg font-semibold text-white
+                    bg-yellow-500 rounded-xl hover:bg-yellow-700">Edit</a>
+
+                    <a href="{% url 'company:delete' company.id %}" class="inline-block mt-6 px-6 py-3 text-lg font-semibold text-white
+                    bg-red-500 rounded-xl  hover:bg-red-700">Delete</a>
+                </div>
+            {% endif %}
+
+        </div>
+    </div>
+
+    <div class="mt-6 px-6 py-3 bg-gray-100 rounded-xl">
+        <h2 class="mb-3 text-xl text-center">Related Companies</h2>
+
+        <div class="grid grid-cols-4 gap-4">
+
+            {% for company in related_companies %}
+                <div>
+                    <a href="{% url 'company:detail' company.id %}">
+
+                        <div class="p-6 bg-white rounded-b-xl">
+                            <h2 class="text-l">{{ company.company_name }}</h2>
+                            <p class="text-s text-orange-500">BA: {{ company.business_area }}</p>
+                            {% if request.user == company.created_by %}
+                                <p class="text-s text-orange-500">Turnover per Year: {{ company.turnover_per_year }}</p>
+                            {% endif %}
+                        </div>
+
+                    </a>
+                </div>
+
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

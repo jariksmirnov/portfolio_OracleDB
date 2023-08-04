@@ -1,0 +1,67 @@
+{% extends 'core/base.html' %}
+
+{% block title %}{{item.product_name}}{% endblock %}
+
+{% block content %}
+    <div class="grid grid-cols-5 gap-6">
+        <div class="col-span-3">
+            <h1 class="mb-6 text-3xl text-bold text-transform: uppercase">{{ item.product_name }}</h1>
+        </div>
+
+        <div class="col-span-2 p-6 bg-gray-100 rounded-xl">
+
+            <p class="text-gray-700">
+                <strong class="text-orange-500">Price: </strong><br>
+                {{ item.price }}
+            </p>
+
+             <p class="text-gray-700">
+                 <strong class="text-orange-500">Business Area</strong><br>
+                 {{ item.business_area }}
+             </p>
+
+             <p class="text-gray-700">
+                 <strong class="text-orange-500">Seller</strong><br>
+                 {{ item.company }}
+             </p>
+
+            {% if request.user == item.created_by %}
+                <div class="mt-6 p-6 bg-white rounded-xl">
+                    <p>This is your item</p>
+
+                    <a href="{% url 'item:edit' item.id %}" class="inline-block mt-6 px-6 py-3 text-lg font-semibold text-white
+                    bg-yellow-500 rounded-xl hover:bg-yellow-700">Edit</a>
+
+                    <a href="{% url 'item:delete' item.id %}" class="inline-block mt-6 px-6 py-3 text-lg font-semibold text-white
+                    bg-red-500 rounded-xl  hover:bg-red-700">Delete</a>
+                </div>
+            {% endif %}
+
+        </div>
+    </div>
+
+    <div class="mt-6 px-6 py-3 bg-gray-100 rounded-xl">
+        <h2 class="mb-3 text-2xl text-center">Related Items</h2>
+
+        <div class="grid grid-cols-4 gap-4">
+
+            {% for item in related_items %}
+                <div>
+                    <a href="{% url 'item:detail' item.id %}">
+
+                        <div>
+                            <img src="{{ item.image.url }}" class="rounded-t-xl">
+                        </div>
+
+                        <div class="p-6 bg-white rounded-b-xl">
+                            <h2 class="text-2xl">{{ item.product_name }}</h2>
+                            <p class="text-orange-500">Price: {{ item.price }}</p>
+                        </div>
+
+                    </a>
+                </div>
+
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

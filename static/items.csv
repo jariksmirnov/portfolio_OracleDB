@@ -1,0 +1,301 @@
+product_id,product_name,company_id,business_area,price
+1,Cloud Security Solutions,19,Information Technology,2476
+2,IT Staffing Solutions,27,Food supply,2630
+3,Language Translation Services Tax Preparation Services,22,Information Technology,4612
+4,Language Learning Software,3,Finance,2191
+5,Mobile Device Management,21,Real Estate,3111
+6,Data Science Consulting,3,Food supply,4806
+7,Sales Performance Coaching,11,Education,4932
+8,Artisanal Bakery,12,Education,224
+9,Cybersecurity Training Programs,17,Finance,811
+10,Wealth Management Services,30,Real Estate,3449
+11,Cloud Security Solutions,23,Education,69
+12,Farmers Market Produce,18,Real Estate,500
+13,Search Engine Optimization Services,5,Food supply,4106
+14,Social Media Monitoring Tools,5,Sales,2643
+15,Digital Marketing Services,15,Finance,1437
+16,Content Marketing Services,17,Marketing,1431
+17,Language Translation Services Tax Preparation Services,2,Finance,4738
+18,Language Learning Apps,14,Food supply,3178
+19,Gourmet Coffee Roastery,9,Real Estate,4930
+20,Artisanal Bakery,9,Education,577
+21,Social Media Influencer Services,28,Sales,1019
+22,Web Hosting Services,29,Sales,2505
+23,Farm-to-Table Restaurant,22,Education,1986
+24,Salesforce Automation Tools,15,Food supply,1906
+25,Luxury Condos,21,Real Estate,2387
+26,Email Automation Tools,25,Food supply,4903
+27,Language Learning Apps,21,Education,743
+28,Language Learning Software,5,Real Estate,1099
+29,Web Hosting Services,22,Education,1349
+30,Artisanal Bakery,12,Real Estate,972
+31,Private Equity Investments,21,Information Technology,1521
+32,Leadership Training Programs,13,Marketing,2379
+33,Email Automation Tools,28,Information Technology,1989
+34,Language Translation Services Tax Preparation Services,8,Education,1494
+35,Cybersecurity Consulting,28,Information Technology,2908
+36,Email Automation Tools,3,Real Estate,2815
+37,IT Consulting Services,4,Education,754
+38,Luxury Home Decor,30,Finance,974
+39,Language Interpretation Services,7,Finance,3085
+40,Artisanal Cheese Shop,18,Education,2271
+41,Salesforce Automation Tools,20,Information Technology,1092
+42,Online Photography Courses,12,Real Estate,662
+43,Investment Banking Services,15,Information Technology,4719
+44,Luxury Car Rentals,14,Education,1640
+45,Private Banking Services,1,Education,4434
+46,Personal Finance Coaching,9,Information Technology,3439
+47,Beachfront Properties,15,Sales,1401
+48,Email Automation Tools,11,Finance,2304
+49,Financial Analysis Services,16,Real Estate,329
+50,Web Development Services,4,Education,1455
+51,Cloud Storage Solutions,7,Finance,887
+52,Cybersecurity Software,4,Finance,3419
+53,Commercial Property Management,12,Education,785
+54,Sales Coaching Program,5,Sales,3147
+55,Sales Forecasting Software,25,Education,2424
+56,Online Art Courses,11,Sales,1814
+57,Wealth Management Services,23,Finance,1953
+58,Online Language Courses,23,Education,4553
+59,Mobile Payment Solutions,25,Food supply,2682
+60,IT Consulting Services,21,Sales,3013
+61,Online Cooking Classes,18,Finance,938
+62,Payroll Services,1,Marketing,734
+63,Pay-Per-Click Advertising Services,28,Finance,3070
+64,IT Staffing Solutions,4,Real Estate,4756
+65,Online Writing Courses,6,Education,4200
+66,Sales Performance Coaching,5,Real Estate,897
+67,Residential Property Management,8,Food supply,3253
+68,Financial Analysis Services,4,Education,2728
+69,Financial Analysis Services,6,Sales,2364
+70,Data Science Consulting,21,Finance,2217
+71,Luxury Condos,18,Marketing,443
+72,Data Science Consulting,27,Real Estate,4218
+73,Data Science Consulting,15,Finance,711
+74,Financial Planning Services,6,Education,2851
+75,Salesforce Automation Tools,19,Sales,4750
+76,Commercial Property Management,9,Food supply,1279
+77,Payroll Services,12,Food supply,977
+78,Social Media Management,22,Information Technology,3217
+79,Sales Training Programs,22,Marketing,3046
+80,Sales Forecasting Software,24,Real Estate,616
+81,Data Analytics Consulting,14,Information Technology,4090
+82,Social Media Advertising Services,18,Finance,3941
+83,Search Engine Optimization Services,23,Marketing,1883
+84,Residential Real Estate,8,Marketing,4497
+85,Luxury Home Decor,7,Information Technology,3713
+86,Corporate Training Programs,2,Finance,4435
+87,Cloud Backup Solutions,18,Real Estate,3340
+88,Financial Planning Services,14,Sales,322
+89,Gourmet Chocolate Shop,30,Education,2690
+90,Commercial Property Management,6,Information Technology,4263
+91,Sales Pipeline Management,26,Finance,2457
+92,Online Learning Platforms,28,Education,3760
+93,Luxury Watch Retailer,17,Finance,2806
+94,Email Marketing Services,17,Information Technology,4888
+95,Luxury Condos,19,Information Technology,2422
+96,Artisanal Ice Cream Shop,26,Food supply,3406
+97,Farm-to-Table Catering,27,Education,4277
+98,Payroll Services,1,Real Estate,996
+99,E-learning Courses,10,Information Technology,4230
+100,Commercial Property Management,24,Food supply,3499
+101,Farm-to-Table Catering,19,Real Estate,3169
+102,Online Writing Courses,2,Sales,4938
+103,Pay-Per-Click Advertising Services,10,Food supply,2261
+104,Office Space Leasing,13,Education,1278
+105,Search Engine Optimization Services,29,Finance,2174
+106,Luxury Vacation Rentals,22,Marketing,2175
+107,Online Language Courses,17,Information Technology,1456
+108,Cloud Storage Solutions,2,Finance,409
+109,CRM Software,8,Information Technology,4018
+110,Web Development Services,15,Real Estate,2733
+111,Influencer Marketing Services,10,Food supply,2239
+112,Sales Coaching Program,16,Information Technology,999
+113,E-learning Courses,11,Food supply,4770
+114,Online Art Courses,29,Finance,4228
+115,Data Science Consulting,4,Marketing,3593
+116,Data Science Consulting,22,Real Estate,811
+117,Investment Advisory Services,19,Education,3642
+118,Mobile Device Management,30,Information Technology,2436
+119,Sales Performance Coaching,20,Information Technology,2931
+120,Farm-to-Table Restaurant,3,Real Estate,4922
+121,Accounting Services,9,Marketing,4076
+122,Data Science Consulting,16,Food supply,4769
+123,Language Interpretation Services,17,Information Technology,4698
+124,Investment Banking Services,7,Sales,4065
+125,Online Writing Courses,25,Sales,1996
+126,Cloud Computing Solutions,12,Education,4990
+127,Gourmet Coffee Roastery,19,Real Estate,4791
+128,Sales Performance Coaching,15,Finance,2054
+129,Language Translation Services Tax Preparation Services,16,Information Technology,709
+130,Investment Banking Services,18,Real Estate,1635
+131,Sales Forecasting Software,21,Information Technology,1342
+132,Online Art Courses,8,Information Technology,3825
+133,Language Interpretation Services,2,Marketing,2643
+134,Residential Property Management,16,Finance,161
+135,Cybersecurity Consulting,25,Education,2640
+136,Financial Analysis Services,19,Marketing,4851
+137,Investment Advisory Services,22,Real Estate,3791
+138,Online Music Lessons,19,Finance,1722
+139,Residential Property Management,4,Sales,1227
+140,Investment Management Services,22,Food supply,4888
+141,Language Learning Software,3,Information Technology,3417
+142,Social Media Management,1,Information Technology,828
+143,Language Translation Services Tax Preparation Services,6,Real Estate,2771
+144,Social Media Influencer Services,24,Education,3398
+145,Financial Analysis Services,3,Marketing,1761
+146,Mobile App Development,21,Marketing,3677
+147,Software Development Services,6,Real Estate,1985
+148,Online Degree Programs,30,Finance,1617
+149,Content Marketing Services,14,Education,4432
+150,Gourmet Coffee Roastery,28,Sales,2465
+151,Luxury Home Decor,4,Marketing,1804
+152,Software Development Services,3,Real Estate,3440
+153,Search Engine Optimization Services,14,Marketing,3750
+154,Influencer Marketing Services,4,Finance,4098
+155,Content Writing Services,30,Finance,822
+156,Cloud Migration Services,29,Information Technology,2118
+157,Gourmet Catering Services,8,Marketing,525
+158,Retirement Planning Services,1,Real Estate,1837
+159,Sales Enablement Tools,11,Marketing,1071
+160,Residential Real Estate,28,Information Technology,3966
+161,Sales Performance Coaching,10,Education,4868
+162,Cybersecurity Consulting,3,Education,387
+163,Cybersecurity Consulting,27,Sales,218
+164,Sales Coaching Program,3,Real Estate,1608
+165,Language Learning Apps,4,Real Estate,4875
+166,Gourmet Catering Services,8,Marketing,4514
+167,Gourmet Catering Services,5,Food supply,1370
+168,Beachfront Properties,7,Real Estate,2398
+169,Search Engine Marketing Services,19,Food supply,2888
+170,Data Analytics Consulting,29,Marketing,1235
+171,Financial Analysis Services,15,Education,958
+172,Language Learning Apps,24,Sales,3921
+173,Social Media Monitoring Tools,19,Finance,2840
+174,Commercial Real Estate,24,Marketing,1347
+175,Cloud Computing Solutions,22,Finance,1003
+176,Web Development Services,9,Marketing,634
+177,Financial Planning Services,1,Sales,2678
+178,Commercial Property Management,30,Education,2640
+179,Investment Banking Services,12,Marketing,2996
+180,IT Staffing Solutions,23,Food supply,3662
+181,Online Art Courses,9,Finance,3393
+182,IT Consulting Services,10,Finance,1494
+183,Language Learning Apps,29,Real Estate,1939
+184,Web Hosting Services,28,Information Technology,2939
+185,Influencer Marketing Services,26,Marketing,4797
+186,Wealth Management Services,7,Marketing,1176
+187,Online Writing Courses,1,Real Estate,4619
+188,E-learning Courses,25,Marketing,4132
+189,Salesforce Automation Tools,13,Sales,2408
+190,Online Language Courses,25,Food supply,2339
+191,Corporate Training Programs,28,Marketing,370
+192,E-learning Courses,26,Information Technology,422
+193,Retail Sales Training,30,Information Technology,4716
+194,CRM Software,2,Marketing,3654
+195,Search Engine Marketing Services,28,Education,210
+196,Wealth Management Services,2,Education,1510
+197,Digital Marketing Services,13,Education,1704
+198,Content Marketing Services,23,Food supply,3445
+199,Gourmet Catering Services,8,Marketing,4249
+200,Data Science Consulting,5,Marketing,3156
+201,Cloud Backup Solutions,30,Marketing,1673
+202,Corporate Training Programs,14,Food supply,423
+203,Farmers Market Produce,23,Finance,1909
+204,Content Writing Services,29,Sales,4369
+205,Investment Banking Services,3,Finance,4145
+206,Online Degree Programs,28,Information Technology,2681
+207,Cloud Security Solutions,2,Information Technology,207
+208,Farmers Market Produce,5,Information Technology,3841
+209,Data Science Consulting,13,Education,1829
+210,s,26,Education,815
+211,Pay-Per-Click Advertising Services,8,Finance,528
+212,Gourmet Catering Services,6,Food supply,4629
+213,Luxury Apartments,14,Food supply,2909
+214,Cybersecurity Training Programs,15,Marketing,3498
+215,Sales Performance Coaching,21,Sales,4064
+216,Mobile Device Management,5,Finance,4701
+217,E-learning Courses,24,Real Estate,4199
+218,Retail Sales Consulting,25,Education,3845
+219,Luxury Condos,3,Information Technology,3992
+220,Artisanal Tea Shop,9,Marketing,3629
+221,Online Tutoring Services,17,Sales,4080
+222,Corporate Training Programs,8,Food supply,4192
+223,Farmers Market Flowers,7,Food supply,4329
+224,Commercial Real Estate,29,Food supply,2009
+225,Tax Advisory Services,21,Food supply,4198
+226,Corporate Training Programs,26,Finance,114
+227,Investment Banking Services,13,Real Estate,2301
+228,Leadership Training Programs,26,Food supply,1828
+229,Email Marketing Services,16,Marketing,3238
+230,Payroll Services,16,Information Technology,605
+231,Corporate Training Programs,2,Sales,2168
+232,Salesforce Automation Tools,13,Sales,1836
+233,Online Music Lessons,19,Finance,2235
+234,Vacation Home Rentals,5,Information Technology,4427
+235,Financial Analysis Services,5,Marketing,343
+236,Web Hosting Services,14,Real Estate,4941
+237,Sales Performance Coaching,24,Information Technology,1645
+238,Commercial Property Management,8,Food supply,2476
+239,Investment Management Services,22,Sales,4606
+240,Commercial Property Management,23,Real Estate,3665
+241,Cloud Backup Solutions,4,Sales,51
+242,Retirement Planning Services,5,Marketing,790
+243,Gourmet Chocolate Shop,10,Information Technology,2468
+244,Accounting Services,25,Information Technology,1621
+245,Sales Enablement Tools,14,Marketing,1851
+246,IT Consulting Services,21,Information Technology,3628
+247,Investment Management Services,19,Information Technology,970
+248,Sales Training Programs,21,Finance,3016
+249,Language Translation Services Tax Preparation Services,1,Food supply,2912
+250,Private Banking Services,10,Sales,3677
+251,Sales Pipeline Management,2,Real Estate,3878
+252,Software Development Services,23,Food supply,3601
+253,Social Media Monitoring Tools,11,Food supply,2145
+254,Cloud Storage Solutions,23,Food supply,4339
+255,Investment Advisory Services,9,Finance,246
+256,Language Interpretation Services,20,Information Technology,1228
+257,Social Media Advertising Services,4,Marketing,4359
+258,Cloud Computing Solutions,15,Education,1311
+259,Software Development Services,19,Education,1693
+260,Retirement Planning Services,6,Sales,4497
+261,E-learning Courses,14,Marketing,3457
+262,Online Cooking Classes,2,Sales,4922
+263,Online Degree Programs,19,Finance,1573
+264,Email Marketing Services,10,Education,3773
+265,Investment Advisory Services,19,Sales,1202
+266,Software Development Services,24,Marketing,4462
+267,Luxury Vacation Rentals,8,Marketing,3971
+268,Cybersecurity Software,26,Marketing,4566
+269,Online Music Lessons,6,Real Estate,4109
+270,Financial Planning Services,9,Marketing,4697
+271,Farmers Market Produce,22,Marketing,4983
+272,Digital Marketing Services,8,Education,1715
+273,E-learning Courses,13,Real Estate,3343
+274,Office Space Leasing,21,Sales,2357
+275,Retirement Planning Services,7,Sales,1730
+276,Online Language Courses,14,Information Technology,4505
+277,Private Banking Services,2,Education,2431
+278,Salesforce Automation Tools,4,Finance,2428
+279,Data Analytics Consulting,25,Education,3786
+280,Private Banking Services,5,Food supply,1099
+281,Leadership Training Programs,15,Sales,4235
+282,Language Translation Services Tax Preparation Services,28,Food supply,3913
+283,Social Media Management,11,Education,3775
+284,Salesforce Automation Tools,7,Marketing,3679
+285,Farm-to-Table Restaurant,25,Education,983
+286,Investment Banking Services,9,Information Technology,4974
+287,Artisanal Bakery,25,Food supply,824
+288,Artisanal Cheese Shop,14,Information Technology,3642
+289,Artisanal Cheese Shop,26,Food supply,2241
+290,Farm-to-Table Produce,3,Sales,2523
+291,Luxury Home Decor,23,Information Technology,2168
+292,Personal Finance Coaching,27,Information Technology,3326
+293,Online Tutoring Services,25,Finance,4602
+294,CRM Software,6,Real Estate,1418
+295,Financial Analysis Services,21,Information Technology,124
+296,Farm-to-Table Restaurant,28,Food supply,151
+297,Retirement Planning Services,28,Marketing,1190
+298,Payroll Services,7,Information Technology,701
+299,Online Photography Courses,14,Marketing,1958
+300,Online Language Courses,20,Real Estate,4350
